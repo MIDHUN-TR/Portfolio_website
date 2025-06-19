@@ -3,5 +3,5 @@ echo Enter your commit message:
 set /p msg=
 git add .
 git commit -m "%msg%"
-git push origin main
+git push origin master
 pause
